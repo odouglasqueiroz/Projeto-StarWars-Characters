@@ -341,7 +341,7 @@ footer {
     margin: 40px 0 20px 0;
 }
 
-.footer-logo {
+.footer-logo1 {
     font-family: 'Star Wars', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
@@ -390,11 +390,11 @@ footer {
     color: gold;
 }
 
-.footer-navigation {
+.footer-navigation1 {
     display: none;
 }
 
-.footer-list {
+.footer-list1 {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -433,4 +433,35 @@ footer {
         text-align: center;
     }
 
+
+
+    .footer-navigation1 {
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logo {
+        border-top: 100px;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+
+    ul{
+        align-items: center;
+    }
+
+    .footer-logo1 {
+        text-align: center;
+    }
+
+    .copyrigth1 {
+        text-align: center;
+    }
 }
