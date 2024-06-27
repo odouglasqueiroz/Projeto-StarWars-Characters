@@ -203,8 +203,8 @@ footer {
 }
 
 .modal-content {
-    width: 20vw;
-    height: 40vh;
+    width: 25vw;
+    height: 60vh;
     background-color: #0d0d0d;
     border-radius: 12px;
     display: flex;
@@ -364,8 +364,8 @@ footer {
 }
 
 .modal-content1 {
-    width: 20vw;
-    height: 40vh;
+    width: 25vw;
+    height: 60vh;
     background-color: #0d0d0d;
     border-radius: 12px;
     display: flex;
