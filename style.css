@@ -229,6 +229,16 @@ footer {
     color: gold;
 }
 
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
@@ -443,25 +453,76 @@ footer {
         display: none;
     }
 
-    .logo {
-        border-top: 100px;
-        align-items: center;
-    }
-
-    h2 {
-        text-align: center;
-    }
-
-
-    ul{
-        align-items: center;
-    }
 
     .footer-logo1 {
         text-align: center;
     }
 
     .copyrigth1 {
+        text-align: center;
+    }
+
+    .modal {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0px;
+    }
+
+    .modal-content {
+        width: 50vw;
+        height: 70vh;
+        background-color: #0d0d0d;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 30px 10px;
+        align-items: center;
+    }
+
+    .character-details {
+        font-family: 'Star Wars', sans-serif;
+        font-size: 1rem;
+        font-weight: lighter;
+        color: gold;
+        text-align: center;
+    }
+
+    .modal1 {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0px;
+    }
+
+    .modal-content1 {
+        width: 50vw;
+        height: 70vh;
+        background-color: #0d0d0d;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 30px 10px;
+        align-items: center;
+    }
+
+    .planets-details {
+        font-family: 'Star Wars', sans-serif;
+        font-size: 1rem;
+        font-weight: lighter;
+        color: gold;
         text-align: center;
     }
 }
